@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="addressWialon"
+        android:title="Адрес сервера Wialon"/>
+    <EditTextPreference
+        android:key="portWialon"
+        android:title="Порт сервера Wialon"/>
+    <EditTextPreference
+        android:key="operatorNumber"
+        android:title="Номер оператора"
+        android:defaultValue="05911" />
+    <EditTextPreference
+        android:key="phoneNumber"
+        android:title="Номер телефона"/>
+    <EditTextPreference
+        android:key="trackInterval"
+        android:title="Интервал трека (сек)"
+        android:defaultValue="5" />
+</PreferenceScreen>
